@@ -1,4 +1,4 @@
-import data from './rawBooks.json' assert { type: 'json' };
+import data from './rawBooks.json' with { type: 'json' };
 console.log(data);
 
 // fetch('./rawBooks.json')
